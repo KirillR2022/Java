@@ -16,7 +16,7 @@ public class Main {
         HotDrink Cocoa = new Cocoa("Cocoa with milk", 250, 250, 65);
         HotDrink CoffeEspresso = new Coffee("Espresso", 80, 60, 80);
 
-        VendingMachine DrinksVending = new HotDrinksVendingMachine();
+
 
         DrinksVending.addDrink(TeaLarge);
         DrinksVending.addDrink(TeaMedium);

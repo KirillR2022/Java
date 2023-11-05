@@ -37,7 +37,7 @@ public class VendingDrink {
 
     HotDrink getHotDrink(int temperature) {
         for (HotDrink drink : list) {
-            if (temperature == drink.getTemperature()) {
+            if (temperature == drink.getTemp()) {
                 return drink;
             }
         }
@@ -46,7 +46,7 @@ public class VendingDrink {
 
     HotDrink getHotDrink1(String kind, double price, int temperature) {
         for (HotDrink drink : list) {
-            if (temperature == drink.getTemperature()
+            if (temperature == drink.getTemp()
                     && kind.equals(drink.getKind())
                     && price == drink.getPrice()) {
                 return drink;
